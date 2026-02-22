@@ -2,4 +2,7 @@
   <Folder Name="/Lab01/">
     <Project Path="Lab01/Task/Lab01.Task.csproj" />
   </Folder>
+  <Folder Name="/Lab02/">
+    <Project Path="Lab02/Task/Lab02.Task.csproj" />
+  </Folder>
 </Solution>
