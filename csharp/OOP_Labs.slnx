@@ -9,4 +9,8 @@
   <Folder Name="/Lab03/Task/">
     <Project Path="Lab03/Task/Lab03.Task.csproj" />
   </Folder>
+  <Folder Name="/Lab04/" />
+  <Folder Name="/Lab04/Task/">
+    <Project Path="Lab04/Task/Lab04.Task.csproj" />
+  </Folder>
 </Solution>

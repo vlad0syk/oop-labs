@@ -8,6 +8,8 @@ namespace Task
     {
         static void Main(string[] args)
         {
+            Console.Clear();
+            Greeting();
             Console.WriteLine("=== Testing Teacher Class ===");
             Teacher teacher = new Teacher("John Doe", "10", "Computer Science", 30);
             teacher.WriteToConsole();
@@ -80,6 +82,17 @@ namespace Task
             CreativeWork.PrintArray(array);
             
             Console.WriteLine("\n=== All Tests Completed! ===");
+        }
+
+        static void Greeting()
+        {
+            Console.WriteLine("===========================================");
+            Console.WriteLine("     📘 Laboratory Work No. 3");
+            Console.WriteLine("===========================================");
+            Console.WriteLine("💻 Performed by: Vlad Sapozhnyk (8)");
+            Console.WriteLine("🎓 Taras Shevchenko National University of Kyiv");
+            Console.WriteLine("🏫 Group: IPZ-13, Subgroup: 6");
+            Console.WriteLine("===========================================");
         }
     }
 }
