@@ -13,10 +13,8 @@ namespace Task
 
             Console.WriteLine("\n=== VERSION 1 — Basic Inheritance ===\n");
 
-            Cat cat = new Cat("British Shorthair", "Whiskers", "Calm, fluffy, round face",
-                              5.2, 30, true, 0);
-            Dog dog = new Dog("German Shepherd", "Rex", "Loyal, intelligent, strong",
-                              35.0, 65, true);
+            Cat cat = new Cat("British Shorthair", "Whiskers", "Calm, fluffy, round face", 5.2, 30, true, 0);
+            Dog dog = new Dog("German Shepherd", "Rex", "Loyal, intelligent, strong", 35.0, 65, true);
 
             Console.WriteLine("--- Cat Info ---");
             cat.WriteToConsole();
@@ -43,10 +41,8 @@ namespace Task
 
             Console.WriteLine("\n\n=== VERSION 2 — Interface-based Hierarchy ===\n");
 
-            IAnimal animal1 = new CatV2("Siamese", "Luna", "Elegant, vocal, affectionate",
-                                         4.0, 25, true);
-            IAnimal animal2 = new DogV2("Labrador", "Buddy", "Friendly, energetic, loves water",
-                                         30.0, 60, false);
+            IAnimal animal1 = new CatV2("Siamese", "Luna", "Elegant, vocal, affectionate", 4.0, 25, true);
+            IAnimal animal2 = new DogV2("Labrador", "Buddy", "Friendly, energetic, loves water", 30.0, 60, false);
 
             Console.WriteLine("--- Accessing through IAnimal interface ---");
             Console.WriteLine($"\nanimal1 (CatV2):");
@@ -72,10 +68,8 @@ namespace Task
 
             Console.WriteLine("\n\n=== VERSION 3 — Abstract Base Class ===\n");
 
-            CatV3 catV3 = new CatV3("Maine Coon", "Shadow", "Large, gentle, playful",
-                                     8.0, 40, 9);
-            DogV3 dogV3 = new DogV3("Husky", "Storm", "Energetic, howling, pack-oriented",
-                                     25.0, 55, 7);
+            CatV3 catV3 = new CatV3("Maine Coon", "Shadow", "Large, gentle, playful", 8.0, 40, 9);
+            DogV3 dogV3 = new DogV3("Husky", "Storm", "Energetic, howling, pack-oriented", 25.0, 55, 7);
 
             Console.WriteLine("--- CatV3 Info ---");
             catV3.WriteToConsole();
