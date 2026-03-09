@@ -20,11 +20,31 @@ namespace Task.Models
             _height = height;
         }
 
-        public string Breed { get => _breed; set => _breed = value; }
-        public string Name { get => _name; set => _name = value; }
-        public string Characteristics { get => _characteristics; set => _characteristics = value; }
-        public double Weight { get => _weight; set => _weight = value; }
-        public double Height { get => _height; set => _height = value; }
+        public string Breed
+        {
+            get => _breed;
+            set => _breed = value;
+        }
+        public string Name
+        {
+            get => _name;
+            set => _name = value;
+        }
+        public string Characteristics
+        {
+            get => _characteristics;
+            set => _characteristics = value;
+        }
+        public double Weight
+        {
+            get => _weight;
+            set => _weight = value;
+        }
+        public double Height
+        {
+            get => _height;
+            set => _height = value;
+        }
 
         public virtual void WriteToConsole()
         {

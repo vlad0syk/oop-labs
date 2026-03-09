@@ -21,8 +21,7 @@ namespace Task.Models
             _height = 0;
         }
 
-        public Animal(string breed, string name, string characteristics,
-                       double weight, double height)
+        public Animal(string breed, string name, string characteristics, double weight, double height)
         {
             _breed = breed;
             _name = name;

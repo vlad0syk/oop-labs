@@ -6,14 +6,16 @@ namespace Task.Models
     {
         private int _livesLeft;
 
-        public CatV3(string breed, string name, string characteristics,
-                     double weight, double height, int livesLeft = 9)
-            : base(breed, name, characteristics, weight, height)
+        public CatV3(string breed, string name, string characteristics, double weight, double height, int livesLeft = 9) : base(breed, name, characteristics, weight, height)
         {
             _livesLeft = livesLeft;
         }
 
-        public int LivesLeft { get => _livesLeft; set => _livesLeft = value; }
+        public int LivesLeft
+        {
+            get => _livesLeft;
+            set => _livesLeft = value;
+        }
 
         public override string MakeSound()
         {

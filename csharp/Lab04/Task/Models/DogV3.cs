@@ -6,14 +6,16 @@ namespace Task.Models
     {
         private int _loyaltyLevel;
 
-        public DogV3(string breed, string name, string characteristics,
-                     double weight, double height, int loyaltyLevel = 5)
-            : base(breed, name, characteristics, weight, height)
+        public DogV3(string breed, string name, string characteristics, double weight, double height, int loyaltyLevel = 5) : base(breed, name, characteristics, weight, height)
         {
             _loyaltyLevel = Math.Clamp(loyaltyLevel, 1, 10);
         }
 
-        public int LoyaltyLevel { get => _loyaltyLevel; set => _loyaltyLevel = Math.Clamp(value, 1, 10); }
+        public int LoyaltyLevel
+        {
+            get => _loyaltyLevel;
+            set => _loyaltyLevel = Math.Clamp(value, 1, 10);
+        }
 
         public override string MakeSound()
         {

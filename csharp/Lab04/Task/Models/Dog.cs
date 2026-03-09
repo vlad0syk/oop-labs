@@ -8,10 +8,7 @@ namespace Task.Models
         private bool _isGuardDog;
         private List<string> _commandsKnown;
 
-        public Dog(string breed, string name, string characteristics,
-                   double weight, double height,
-                   bool isGuardDog)
-            : base(breed, name, characteristics, weight, height)
+        public Dog(string breed, string name, string characteristics, double weight, double height, bool isGuardDog) : base(breed, name, characteristics, weight, height)
         {
             _isGuardDog = isGuardDog;
             _commandsKnown = new List<string>();

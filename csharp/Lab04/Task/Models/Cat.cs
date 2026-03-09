@@ -7,9 +7,7 @@ namespace Task.Models
         private bool _isIndoor;
         private int _miceCaught;
 
-        public Cat(string breed, string name, string characteristics,
-                   double weight, double height,
-                   bool isIndoor, int miceCaught)
+        public Cat(string breed, string name, string characteristics, double weight, double height, bool isIndoor, int miceCaught)
             : base(breed, name, characteristics, weight, height)
         {
             _isIndoor = isIndoor;

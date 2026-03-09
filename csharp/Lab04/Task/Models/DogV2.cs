@@ -6,14 +6,16 @@ namespace Task.Models
     {
         private bool _isGuardDog;
 
-        public DogV2(string breed, string name, string characteristics,
-                     double weight, double height, bool isGuardDog)
-            : base(breed, name, characteristics, weight, height)
+        public DogV2(string breed, string name, string characteristics, double weight, double height, bool isGuardDog) : base(breed, name, characteristics, weight, height)
         {
             _isGuardDog = isGuardDog;
         }
 
-        public bool IsGuardDog { get => _isGuardDog; set => _isGuardDog = value; }
+        public bool IsGuardDog
+        {
+            get => _isGuardDog;
+            set => _isGuardDog = value;
+        }
 
         public override void WriteToConsole()
         {
