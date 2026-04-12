@@ -11,9 +11,9 @@
 - `Lab02/Task` — розвиток моделі + пояснення в `CodeExplanation.md`.
 - `Lab03/Task` — часткові класи, вкладені типи, робота зі студентами/викладачами.
 - `Lab04/Task` — ієрархія тварин, інтерфейси, абстрактні класи, колекції.
-  - Документація: [`csharp/Lab04/README.md`](/Users/sapozhnyk.vladyslav/Desktop/uni-projects/oop-labs/csharp/Lab04/README.md)
+  - Документація: [`csharp/Lab04/README.md`](csharp/Lab04/README.md)
 - `Lab05/Task` — розширення Lab04: клас `Parrot`, оператори, індексатор.
-  - Документація: [`csharp/Lab05/README.md`](/Users/sapozhnyk.vladyslav/Desktop/uni-projects/oop-labs/csharp/Lab05/README.md)
+  - Документація: [`csharp/Lab05/README.md`](csharp/Lab05/README.md)
 
 ## Запуск C# лабораторних
 Вимоги:
