@@ -13,7 +13,7 @@ namespace Task
             Console.WriteLine("=== Testing Teacher Class ===");
             Teacher teacher = new Teacher("John Doe", "10", "Computer Science", 30);
             teacher.WriteToConsole();
-            
+        
             Console.WriteLine("\nTesting Teacher method IncreaseStudents(+5):");
             teacher.IncreaseStudents(5);
             teacher.WriteToConsole();
@@ -26,7 +26,6 @@ namespace Task
             teacher.RecordInfoToFile(teacherFile);
             Console.WriteLine($"\nTeacher info recorded to {teacherFile}");
 
-
             Console.WriteLine("\n=== Testing Student Class ===");
             Student student = new Student("Jane", "Smith", "123 Main St", "AB123456", 20, "555-0100", 0);
             student.WriteToConsole();
@@ -37,7 +36,6 @@ namespace Task
             string studentFile = "student_data.txt";
             student.RecordRatingToFile(studentFile);
             Console.WriteLine($"\nStudent rating recorded to {studentFile}");
-
 
             Console.WriteLine("\n=== Testing DiplomaProject Class ===");
             Student.DiplomaProject project = new Student.DiplomaProject 
